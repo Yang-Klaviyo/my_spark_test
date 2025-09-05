@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.13" />
+            <item index="2" class="java.lang.String" itemvalue="3.7" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="33">
+            <item index="0" class="java.lang.String" itemvalue="mypy-boto3-dynamodb" />
+            <item index="1" class="java.lang.String" itemvalue="environs" />
+            <item index="2" class="java.lang.String" itemvalue="webcolors" />
+            <item index="3" class="java.lang.String" itemvalue="mypy-boto3-cloudformation" />
+            <item index="4" class="java.lang.String" itemvalue="arize-phoenix-client" />
+            <item index="5" class="java.lang.String" itemvalue="zope-interface" />
+            <item index="6" class="java.lang.String" itemvalue="mypy-boto3-rds" />
+            <item index="7" class="java.lang.String" itemvalue="numpy" />
+            <item index="8" class="java.lang.String" itemvalue="pdfminer-six" />
+            <item index="9" class="java.lang.String" itemvalue="sqlean-py" />
+            <item index="10" class="java.lang.String" itemvalue="playwright" />
+            <item index="11" class="java.lang.String" itemvalue="mypy-boto3-sqs" />
+            <item index="12" class="java.lang.String" itemvalue="mypy-boto3-ec2" />
+            <item index="13" class="java.lang.String" itemvalue="openinference-instrumentation-openai" />
+            <item index="14" class="java.lang.String" itemvalue="pyee" />
+            <item index="15" class="java.lang.String" itemvalue="limits" />
+            <item index="16" class="java.lang.String" itemvalue="ruamel-yaml-clib" />
+            <item index="17" class="java.lang.String" itemvalue="boto3-stubs" />
+            <item index="18" class="java.lang.String" itemvalue="mypy-boto3-s3" />
+            <item index="19" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="20" class="java.lang.String" itemvalue="email-validator" />
+            <item index="21" class="java.lang.String" itemvalue="zope-event" />
+            <item index="22" class="java.lang.String" itemvalue="arize-phoenix" />
+            <item index="23" class="java.lang.String" itemvalue="mypy-boto3-lambda" />
+            <item index="24" class="java.lang.String" itemvalue="openai" />
+            <item index="25" class="java.lang.String" itemvalue="ruamel-yaml" />
+            <item index="26" class="java.lang.String" itemvalue="backports-cached-property" />
+            <item index="27" class="java.lang.String" itemvalue="chariot-messaging" />
+            <item index="28" class="java.lang.String" itemvalue="openinference-instrumentation-bedrock" />
+            <item index="29" class="java.lang.String" itemvalue="dacite" />
+            <item index="30" class="java.lang.String" itemvalue="langchain-core" />
+            <item index="31" class="java.lang.String" itemvalue="langsmith" />
+            <item index="32" class="java.lang.String" itemvalue="zstandard" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
