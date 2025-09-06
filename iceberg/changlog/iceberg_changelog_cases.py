@@ -234,9 +234,6 @@ def main():
         ("W7 S4..S5 (delete then re-insert)", s4, s5),
         ("W8 S5..S6 (reinsert, then merge: update id=2 + insert id=3)", s5, s6),
         ("W9 S1..S6 (entire history)", s1, s6),
-
-
-
     ]
 
     # For each window, show non-net (raw) and net_changes views
@@ -245,6 +242,7 @@ def main():
         create_changelog_view(spark, st, en, net_changes=False)
         # show_changes(spark, f"{label} RAW", where_clause="company_id=10")
         show_changes(spark, f"{label} RAW")
+
         # NET changes
         create_changelog_view(spark, st, en, net_changes=True)
         # show_changes(spark, f"{label} NET (collapsed by identifier fields)", where_clause="company_id=10")
